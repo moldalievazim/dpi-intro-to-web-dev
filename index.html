@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>GrowthHungry Club</title>
@@ -7,12 +7,27 @@
       * {
         border: 1px red dashed;
       }
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+      .avatar-img {
+        width: 178px;
+        height: 128px;
+        object-fit: cover;
+      }
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
     </style>
   </head>
   <body>
     <div class="main-container">
       <div class="image-row">
-        <img src="/GrowthHungry.jpg" alt="GrowthHungry Club" width="100%"/>
+        <img class="avatar-img" src="/images/GrowthHungry.jpg" alt="GrowthHungry Club" />
       </div>
 
       <div class="name-row">
@@ -31,13 +46,13 @@
 
       <div class="links-row">
         <div class="item">
-          <img src="" alt=""/>
-          <a href="" target="_blank">Career Hub</a>
+          <img class="thumbnail" src="/images/career-hub.jpg" alt="Career Hub"/>
+          <a href="#" target="_blank">Career Hub</a>
         </div>
 
         <div class="item">
-          <img src="" alt=""/>
-          <a href="" target="_blank">Challenges</a>
+          <img class="thumbnail" src="/images/challenges.jpg" alt="Challenges"/>
+          <a href="#" target="_blank">Challenges</a>
         </div>
       </div>
     </div>
