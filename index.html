@@ -2,25 +2,74 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>GrowthHungry Club</title>
     <style>
       * {
         border: 1px red dashed;
       }
+
+      html{
+        min-height: 100%;
+      }
+
       body {
+        min-height: 100%;
         padding-top: 40px;
         padding-bottom: 40px;
+        background: linear-gradient(180deg, #245b54, #346c71, #477788, #5e839f, #798fb6, #a1a5ce, #cfc4e6, #fae8ff);
+        color: rgba(255, 255, 255, 1.0);
       }
+
+      a{
+        color: rgba(255, 255, 255, 1.0);
+      }
+
+      .main-container{
+        max-width: 640px;
+        margin: auto;
+      }
+
+      .image-row {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .name-row{
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      .social-icons-row{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      }
+
       .avatar-img {
         width: 178px;
         height: 128px;
         object-fit: cover;
       }
+
       .thumbnail {
         width: 48px;
         height: 48px;
         border-radius: 48px;
         object-fit: cover;
+      }
+
+      .item{
+        margin-bottom: 20px;
+        background-color: rgba(149, 123, 173, .5);
+        display: flex;
+        align-items: center;
+      }
+
+      .link-text{
+        text-align: center;
+        flex-grow: 1;
       }
     </style>
   </head>
@@ -47,12 +96,12 @@
       <div class="links-row">
         <div class="item">
           <img class="thumbnail" src="/images/career-hub.jpg" alt="Career Hub"/>
-          <a href="#" target="_blank">Career Hub</a>
+          <a class="link-text" href="#" target="_blank">Career Hub</a>
         </div>
 
         <div class="item">
           <img class="thumbnail" src="/images/challenges.jpg" alt="Challenges"/>
-          <a href="#" target="_blank">Challenges</a>
+          <a class="link-text" href="#" target="_blank">Challenges</a>
         </div>
       </div>
     </div>
