@@ -1,3 +1,3 @@
-# static-html-template
+# link in bio 
 
-Use this template to create static HTML websites and deploy them on Render.
+The project shows some important links of Growth Hungry Club, of which I am a member.
